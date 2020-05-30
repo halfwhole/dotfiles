@@ -1,1 +1,6 @@
-alias sunfire='ssh limziwei@sunfire.comp.nus.edu.sg'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias py='python'
+alias py3='python3'
+alias ipy='ipython'
+alias g='git'
