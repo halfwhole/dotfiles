@@ -137,3 +137,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH="$HOME/bash-scripts:$PATH" # Added 2020-07-18, for bash scripts
