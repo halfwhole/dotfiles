@@ -115,12 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH=/home/suntoast/.rbenv/shims:/home/suntoast/.rbenv/bin:/home/suntoast/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
-export GOPATH=/home/suntoast/go
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+# export PATH=/home/suntoast/.rbenv/shims:/home/suntoast/.rbenv/bin:/home/suntoast/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
+
+export GOPATH=/home/suntoast/go
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
