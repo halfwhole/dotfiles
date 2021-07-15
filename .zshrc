@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.bash_aliases
 # For more on make zsh like fish, see: https://github.com/abhigenie92/zsh_to_fish
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
+source ~/.bash_aliases
+export PATH=$PATH:~/bash-scripts
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+export LESS="-rX"  # Change default display behaviour for programs like git log
