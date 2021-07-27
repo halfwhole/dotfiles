@@ -110,3 +110,6 @@ source ~/.bash_aliases
 export PATH=$PATH:~/bash-scripts
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export LESS="-rX"  # Change default display behaviour for programs like git log
+
+# Load rbenv
+eval "$(rbenv init -)"
