@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/apple/.oh-my-zsh"
+export ZSH="/Users/$(whoami)/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -124,3 +124,6 @@ if [ -f '/Users/apple/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/apple/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/apple/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/apple/google-cloud-sdk/completion.zsh.inc'; fi
+
+source "$NVM_DIR/nvm.sh" # added this manually on 2022-08-29 to enable nvm on oh-my-zsh, must be at the end: see https://stackoverflow.com/questions/29072711/nvm-doesnt-stick-to-alias-default-with-zsh-oh-my-zsh
+
